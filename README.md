@@ -1,3 +1,20 @@
 # Index of My Dockerfiles
 
-❌ List of Dockerfiles in my repo and their build statuses.
+| Repository | Docker Hub | DL Size & Layers | Architecture | Build Status<br>(DockerCloud) | Remarks |
+| :--------- | :--------: | :--------------: | :----------: | :---------------------------: | :------ |
+| [Dockerfile_of_Alpine](https://github.com/KEINOS/Dockerfile_of_Alpine) | [LINK](https://hub.docker.com/r/keinos/alpine) | ![DL Size and layer](https://images.microbadger.com/badges/image/keinos/alpine.svg) | x86_64 | ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/keinos/alpine.svg) | Most of my alpine based images use this as a base. |
+| [Dockerfile_of_PHP8-JIT](https://github.com/KEINOS/Dockerfile_of_PHP8-JIT) | [LINK](https://hub.docker.com/r/keinos/php8-jit) | ![DL Size and layer](https://images.microbadger.com/badges/image/keinos/php8-jit.svg) | x86_64, ARM | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/php8-jit.svg) | |
+| [gofeed-cli](https://github.com/KEINOS/gofeed-cli) | [LINK](https://hub.docker.com/r/keinos/gofeed-cli) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/gofeed-cli.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/gofeed-cli.svg) | RSS/XML feed parser command |
+| [Dockerfile_of_HTTP-Stream-API](https://github.com/KEINOS/Dockerfile_of_HTTP-Stream-API) | [LINK](https://hub.docker.com/r/keinos/http-stream-api) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/http-stream-api.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/http-stream-api.svg) | |
+| [Dockerfile_of_Speaker-Test-for-MacHost](https://github.com/KEINOS/Dockerfile_of_Speaker-Test-for-MacHost) | [LINK](https://hub.docker.com/r/keinos/speaker-test) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/speaker-test.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/speaker-test.svg) | Plays ALSA sound test in container to the speaker on Host machine. |
+| [Dockerfile_of_Mini-PHP7](https://github.com/KEINOS/Dockerfile_of_Mini-PHP7) | [LINK](https://hub.docker.com/r/keinos/mini-php7) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/mini-php7.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/mini-php7.svg) | |
+| [Dockerfile_of_Hugo-Alpine](https://github.com/KEINOS/Dockerfile_of_Hugo-Alpine) | [LINK](https://hub.docker.com/r/keinos/hugo-alpine) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/hugo-alpine.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/hugo-alpine.svg) | |
+| [Dockerfile_of_API-Bench](https://github.com/KEINOS/Dockerfile_of_API-Bench) | [LINK](https://hub.docker.com/r/keinos/api-bench) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/api-bench.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/api-bench.svg) | |
+| [Dockerfile_of_Node-Alpine](https://github.com/KEINOS/Dockerfile_of_Node-Alpine) | [LINK](https://hub.docker.com/r/keinos/node-alpine) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/node-alpine.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/node-alpine.svg) | |
+| [Dockerfile_of_PHP7-Alpine](https://github.com/KEINOS/Dockerfile_of_PHP7-Alpine) | [LINK](https://hub.docker.com/r/keinos/php7-alpine) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/php7-alpine.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/php7-alpine.svg) | |
+| [Dockerfile_of_JSqueeze](https://github.com/KEINOS/Dockerfile_of_JSqueeze) | [LINK](https://hub.docker.com/r/keinos/jsqueeze) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/jsqueeze.svg) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/jsqueeze.svg) | |
+
+
+<!-- //ROW TEMPLATE
+| []() | [LINK](https://hub.docker.com/r/keinos/) | ![DL Size and layers](https://images.microbadger.com/badges/image/keinos/) | x86_64 | ![Build Status](https://img.shields.io/docker/cloud/build/keinos/) | |
+-->
